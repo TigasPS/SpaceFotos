@@ -9,7 +9,7 @@ rotas_portfolios = APIRouter(
     prefix="/portfolios",
     tags=["Portfólios"]
 )
-
+ 
 
 class CadastroPortfolio(BaseModel):
     usuario_id: int
